@@ -3,13 +3,15 @@
 
 using namespace std;
 
-int factorial(int a){
+int factorial(int a)
+{
     int res = 1;
     for (int i = 1; i <= a; i++)
         res *= i;
     return res;
 }
-int main(){
+int main()
+{
     int a;
     cin >> a;
     int res;
@@ -17,4 +19,4 @@ int main(){
     cout << res << endl;
     return 0;
 }
-
+//difference
